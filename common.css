@@ -26,11 +26,11 @@ dd {margin-left: 0px; text-decoration: none;}
 .right {float: right; text-align: center;}
 h1 img {max-width: 30px; vertical-align: middle;}
 tbody a {text-decoration: none;}
-table {margin: 0 auto; border-collapse: collapse; font-size: smaller;}
+table {margin: 0 auto; border-collapse: collapse; white-space: nowrap;}
 tr {border: none;}
 td, th {border-right: solid 1px #333; border-left: solid 1px #333;}
-th {border-bottom: solid 2px #333; max-width: 13em;}
-th: first-child, td: first-child {border-left: 0px;}
-th: last-child, td: last-child {border-right: 0px;}
+th {border-bottom: solid 2px #333;}
+th:first-child, td:first-child {border-left: 0px; position: sticky; left: 0px;}
+th:last-child, td:last-child {border-right: 0px;}
 td {padding: 8px; text-align: left; border-bottom: 1px solid #ddd;}
 th {background-color: #cc9966;}
