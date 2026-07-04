@@ -1,6 +1,6 @@
 body {font-family: Verdana, sans-serif; color: #660000; background-color: #FFCC99;}
 .last {text-align: right; font-size: smaller;}
-figure img {border-radius: 15px; max-height: 125px;}
+figure img {border-radius: 15px; max-width: 125px;}
 figure.small img {max-height: 75px;}
 figure.dim img {filter: grayscale(75%);}
 figure.sem img {filter: brightness(2);}
